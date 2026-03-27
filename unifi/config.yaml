@@ -1,6 +1,6 @@
 ---
 name: UniFi Network Application
-version: 6.0.0-sharops
+version: 6.0.1
 slug: unifi
 description: Manage your UniFi network using a web browser
 url: https://github.com/iopsthecloud/addon-unifi
