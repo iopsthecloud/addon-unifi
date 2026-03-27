@@ -1,0 +1,31 @@
+# =============================================================================
+# Lab Home Assistant / tests locaux (voir scripts/ha-*.sh et HA_TEST_LAB.md)
+# =============================================================================
+
+# Secrets et jetons générés par l’onboarding automatisé
+.ha-lab-token.json
+**/.ha-lab-token.json
+
+# Disques, overlay et fichiers d’état VM (haos-test-lab-libvirt.sh, haos-test-lab.sh)
+.haos-lab/
+.haos-lab-libvirt/
+
+# Snapshot Git local pour installation addon depuis le lab (ha-local-repo-snapshot.sh)
+.ha-local-repo/
+
+# Documentation dédiée au lab (hors suivi Git si tu préfères ne pas la publier)
+# Si ces fichiers sont déjà suivis : git rm --cached HA_TEST_LAB.md TESTING_HOMEASSISTANT.md
+HA_TEST_LAB.md
+TESTING_HOMEASSISTANT.md
+
+# Dossier optionnel pour notes ou exports de doc lab uniquement locaux
+lab/
+docs/lab/
+
+# Scripts du lab
+scripts/
+
+# Artefacts Python des scripts d’automatisation
+scripts/__pycache__/
+*.py[cod]
+*$py.class
