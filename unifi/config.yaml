@@ -1,6 +1,6 @@
 ---
 name: UniFi Network Application
-version: 6.0.1
+version: 6.0.2
 slug: unifi
 description: Manage your UniFi network using a web browser
 url: https://github.com/iopsthecloud/addon-unifi
